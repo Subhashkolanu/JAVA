@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ika",
+      "request": "launch",
+      "mainClass": "ika",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Main",
