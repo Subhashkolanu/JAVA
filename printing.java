@@ -1,4 +1,4 @@
-public class details{
+public class printing{
     public static void main(String[] args){
         String Name="Subhash";
         String Degree="B.TECH";
