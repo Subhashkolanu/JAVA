@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "hello",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
+      "name": "Hello",
+      "request": "launch",
+      "mainClass": "Hello",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "ika",
       "request": "launch",
       "mainClass": "ika",
