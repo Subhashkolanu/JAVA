@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "variable",
+      "request": "launch",
+      "mainClass": "variable",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "ProgressCard",
       "request": "launch",
       "mainClass": "ProgressCard",
