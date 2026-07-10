@@ -1,6 +1,8 @@
 public class variable{
     public static void main(String[] args){
+        //Reference datatype
         String name="BMW";
+        //primitive datatype
         int yearOfManufacturing=2026;
         float price=19999.99f;
         double pickup=2.3;
