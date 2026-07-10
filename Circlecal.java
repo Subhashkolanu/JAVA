@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Circlecal{
     public static void main(String[] args){
-        double pi=3.14;
+        double pi=3.1416;
         double radius=0;
         double diameter=2*radius;
         double area=0;
