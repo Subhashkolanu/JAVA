@@ -10,3 +10,4 @@ public class rectanglearea{
         breadth=sc.nextDouble();
         System.out.println("Area of rectangle : "+length*breadth+"cm");
     }
+}
