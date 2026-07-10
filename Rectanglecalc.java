@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class rectanglearea{
+public class Rectanglecalc{
     public static void main(String[] args) {
         double length=0;
         double breadth=0;
@@ -9,5 +9,6 @@ public class rectanglearea{
         System.out.print("Enter Breadth : ");
         breadth=sc.nextDouble();
         System.out.println("Area of rectangle : "+length*breadth+"cm");
+        System.out.println("Perimeter of rectangle : "+2*(length+breadth));
     }
 }
