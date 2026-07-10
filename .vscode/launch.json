@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Circlecal",
+      "request": "launch",
+      "mainClass": "Circlecal",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "rectanglearea",
       "request": "launch",
       "mainClass": "rectanglearea",
