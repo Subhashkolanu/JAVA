@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rectanglearea",
+      "request": "launch",
+      "mainClass": "rectanglearea",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "typeofprint",
       "request": "launch",
       "mainClass": "typeofprint",
