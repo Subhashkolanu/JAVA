@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "simpleinterestcal",
+      "request": "launch",
+      "mainClass": "simpleinterestcal",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "Rectanglecalc",
       "request": "launch",
       "mainClass": "Rectanglecalc",
