@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class currencyconverter{
+public class currencyconverterv1{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         double rupees=0;        
