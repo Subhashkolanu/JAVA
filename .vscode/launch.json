@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "datacollection",
+      "request": "launch",
+      "mainClass": "datacollection",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "Circlecal",
       "request": "launch",
       "mainClass": "Circlecal",

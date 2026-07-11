@@ -16,8 +16,14 @@ public abstract class datacollection {
     scanner.nextLine();
     System.out.print("Enter college : ");
     college=scanner.nextLine();
-    /*System.out.println("Enter discipline/branch : ");
-    discipline=scanner.nextLine(); */
+    System.out.print("Enter discipline/branch : ");
+    discipline=scanner.nextLine();
+    System.out.println("Verify your details ");
+    System.out.println("Name : "+name);
+    System.out.println("Age : " +age);
+    System.out.println("CGPA : "+cgpa);
+    System.out.println("College : "+college);
+    System.out.println("Branch : "+discipline);
     System.out.print("College : "+college);
     scanner.close();
     }
