@@ -10,5 +10,6 @@ public class Rectanglecalc{
         breadth=sc.nextDouble();
         System.out.println("Area of rectangle : "+length*breadth+"cm");
         System.out.println("Perimeter of rectangle : "+2*(length+breadth));
+        sc.close();
     }
 }
