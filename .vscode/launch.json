@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Shopping",
+      "request": "launch",
+      "mainClass": "Shopping",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "typeodoperators",
       "request": "launch",
       "mainClass": "typeodoperators",
