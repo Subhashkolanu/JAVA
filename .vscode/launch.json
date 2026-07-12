@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "typeodoperators",
+      "request": "launch",
+      "mainClass": "typeodoperators",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "madlibs",
       "request": "launch",
       "mainClass": "madlibs",
