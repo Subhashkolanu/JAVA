@@ -16,5 +16,6 @@ public class currencyconverterv1{
         System.out.printf("EURO : %.2f%n",eur);
         System.out.printf("DIRHAM : %.2f%n",aed);
         System.out.printf("POUND : %.2f%n",gbp); 
+    sc.close();
     }
 }
