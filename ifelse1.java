@@ -16,7 +16,9 @@ public class ifelse1{
         else{
             System.out.println("Negative number");
         }*/
-       int age;
+
+        //Voting eligibility
+       /*int age;
        System.out.print("Enter age : ");
        age=sc.nextInt();
        if (age>=18){
@@ -24,7 +26,18 @@ public class ifelse1{
        }
        else{
         System.out.println("Not eligible for voting");
-       }
-        
+       }*/
+
+    //Even or odd
+      /*int num;
+      System.out.print("Enter a number : ");
+      num=sc.nextInt();
+      if (num%2==0){
+        System.out.println("Even number");
+      }
+      else{
+        System.out.println("Odd number");
+      }*/
+    
     }
 }
