@@ -3,19 +3,8 @@ public class ifelse1{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
 
-    //Even or odd
-      int num;
-      System.out.print("Enter a number : ");
-      num=sc.nextInt();
-      if (num%2==0){
-        System.out.println("Even number");
-      }
-      else{
-        System.out.println("Odd number");
-      }
-
     //Pass or fail calculator
-    /*int marks;
+    int marks;
     System.out.print("Enter marks (max=100) : ");
     marks=sc.nextInt();
     if (marks>=75){
@@ -26,7 +15,7 @@ public class ifelse1{
     }
     else{
         System.out.println("Failed");
-    }*/
+    }
 
     //Largest of two numbers
     int a;
