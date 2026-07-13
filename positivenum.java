@@ -16,5 +16,6 @@ public class positivenum{
         else{
             System.out.println("Negative number");
         }
+        sc.close();
     }
 }
