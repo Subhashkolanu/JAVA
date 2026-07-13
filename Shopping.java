@@ -19,6 +19,7 @@ public class Shopping{
         System.out.println("Quantity : "+quantity);
         System.out.println("Price : "+price);
         System.out.println("Total : "+currency+total);
+    sc.close();
     }
 
 }
