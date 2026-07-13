@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ifelse1",
+      "request": "launch",
+      "mainClass": "ifelse1",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "Shopping",
       "request": "launch",
       "mainClass": "Shopping",
