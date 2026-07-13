@@ -39,5 +39,6 @@ public class typeodoperators {
         System.out.println("X Decrement : "+x);
         y--; //y decrement
         System.out.println("Y Decrement : "+y);
+    sc.close();
     }
 }
