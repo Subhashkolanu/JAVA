@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "votingeligibility",
+      "request": "launch",
+      "mainClass": "votingeligibility",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "ifelse1",
       "request": "launch",
       "mainClass": "ifelse1",
