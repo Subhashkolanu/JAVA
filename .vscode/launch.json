@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "calculatorv1",
+      "request": "launch",
+      "mainClass": "calculatorv1",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "leapyear",
       "request": "launch",
       "mainClass": "leapyear",
