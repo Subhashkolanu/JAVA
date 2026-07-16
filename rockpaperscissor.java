@@ -32,6 +32,11 @@ public class rockpaperscissor {
         else{
             System.out.println("Invalid choices");
         }
+        if (player<1 || player>3){
+            System.out.println("Invalid choices");
+            sc.close();
+            return;
+        }
         if (computer==1 && player ==1){
             System.out.println("Tie");
         }
