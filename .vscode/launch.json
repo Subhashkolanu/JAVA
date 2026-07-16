@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Hypotenuse",
+      "request": "launch",
+      "mainClass": "Hypotenuse",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "rockpaperscissor",
       "request": "launch",
       "mainClass": "rockpaperscissor",
