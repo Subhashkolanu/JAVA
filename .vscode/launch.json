@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "otpgenerator",
+      "request": "launch",
+      "mainClass": "otpgenerator",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "headsortails",
       "request": "launch",
       "mainClass": "headsortails",
