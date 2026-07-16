@@ -13,6 +13,8 @@ public class numberguessingv1 {
         else{
             System.out.println("OOPS! the number was : "+number);
         }
+        sc.close();
+        
         /*else if (number>guess){
             System.out.println("Too ahead");
         }
