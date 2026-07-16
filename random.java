@@ -19,8 +19,6 @@ public static void main(String[] args){
     System.out.println("Random float : "+number); // range from 0.0 to 1.0
     number = rd.nextFloat(10);
     System.out.println("Random float : "+number);
-
-
 }
 
     
