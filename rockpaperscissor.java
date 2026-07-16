@@ -4,9 +4,9 @@ public class rockpaperscissor {
     public static void main(String[] args){
         Random rd=new Random();
         Scanner sc=new Scanner(System.in);
-        int computer = rd.nextInt();
+        int computer = rd.nextInt(1,4);
         int player;
-        System.out.print("Enter your choice 1. Rock 2. Paper 3. Scissors");
+        System.out.print("Enter your choice 1. Rock 2. Paper 3. Scissors ");
         player = sc.nextInt();
         if (computer==1 && player ==1){
             System.out.println("Tie");
@@ -32,8 +32,12 @@ public class rockpaperscissor {
         else if (computer == 3 && player == 2){
             System.out.println("Computer wins");
         }
-        else{
-            System.out.println("Ties");
+        else if (computer == 3 && player == 3 ){
+            System.out.println("User wins");
         }
+        else{
+            System.out.println("Invalid choices");
+        }
+        sc.close();
     }
 }

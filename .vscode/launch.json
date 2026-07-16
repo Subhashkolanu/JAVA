@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rockpaperscissor",
+      "request": "launch",
+      "mainClass": "rockpaperscissor",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "numberguessingv1",
       "request": "launch",
       "mainClass": "numberguessingv1",
