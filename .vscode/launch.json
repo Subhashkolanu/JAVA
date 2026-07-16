@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "numberguessingv1",
+      "request": "launch",
+      "mainClass": "numberguessingv1",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
+      "name": "numberguessing",
+      "request": "launch",
+      "mainClass": "numberguessing",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "otpgenerator",
       "request": "launch",
       "mainClass": "otpgenerator",
