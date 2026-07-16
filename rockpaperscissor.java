@@ -26,7 +26,7 @@ public class rockpaperscissor {
         else if (computer == 2){
             System.out.println("Computer choice : Paper");
         }
-        else if (player == 3){
+        else if (computer == 3){
             System.out.println("Computer choice : Scissors");
         }
         else{
