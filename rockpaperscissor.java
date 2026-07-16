@@ -8,6 +8,11 @@ public class rockpaperscissor {
         int player;
         System.out.print("Enter your choice 1. Rock 2. Paper 3. Scissors ");
         player = sc.nextInt();
+        if (player<1 || player>3){
+            System.out.println("Invalid choices");
+            sc.close();
+            return;
+        }
         if (player == 1){
             System.out.println("Player choice : Rock");
         }
@@ -31,11 +36,6 @@ public class rockpaperscissor {
         }
         else{
             System.out.println("Invalid choices");
-        }
-        if (player<1 || player>3){
-            System.out.println("Invalid choices");
-            sc.close();
-            return;
         }
         if (computer==1 && player ==1){
             System.out.println("Tie");
