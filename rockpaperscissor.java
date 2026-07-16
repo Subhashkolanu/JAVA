@@ -8,6 +8,24 @@ public class rockpaperscissor {
         int player;
         System.out.print("Enter your choice 1. Rock 2. Paper 3. Scissors ");
         player = sc.nextInt();
+        if (player == 1){
+            System.out.println("Player choice : Rock");
+        }
+        else if (player == 2){
+            System.out.println("Player choice : Paper");
+        }
+        else{
+            System.out.println("Player choice : Scissors");
+        }
+        if (computer == 1){
+            System.out.println("Computer choice : Rock");
+        }
+        else if (computer == 2){
+            System.out.println("Computer choice : Paper");
+        }
+        else{
+            System.out.println("Computer choice : Scissors");
+        }
         if (computer==1 && player ==1){
             System.out.println("Tie");
         }
