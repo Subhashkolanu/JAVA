@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "headsortails",
+      "request": "launch",
+      "mainClass": "headsortails",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "rolladie",
       "request": "launch",
       "mainClass": "rolladie",
