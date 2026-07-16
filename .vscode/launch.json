@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "electricbill",
+      "request": "launch",
+      "mainClass": "electricbill",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "calculatorv1",
       "request": "launch",
       "mainClass": "calculatorv1",
