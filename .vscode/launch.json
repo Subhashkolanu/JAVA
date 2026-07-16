@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CircleCal",
+      "request": "launch",
+      "mainClass": "CircleCal",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "Hypotenuse",
       "request": "launch",
       "mainClass": "Hypotenuse",
