@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "random",
+      "request": "launch",
+      "mainClass": "random",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "electricbill",
       "request": "launch",
       "mainClass": "electricbill",
