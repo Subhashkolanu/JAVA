@@ -14,8 +14,11 @@ public class rockpaperscissor {
         else if (player == 2){
             System.out.println("Player choice : Paper");
         }
-        else{
+        else if (player ==3){
             System.out.println("Player choice : Scissors");
+        }
+        else{
+            System.out.println("Invalid choices");
         }
         if (computer == 1){
             System.out.println("Computer choice : Rock");
@@ -23,8 +26,11 @@ public class rockpaperscissor {
         else if (computer == 2){
             System.out.println("Computer choice : Paper");
         }
-        else{
+        else if (player == 3){
             System.out.println("Computer choice : Scissors");
+        }
+        else{
+            System.out.println("Invalid choices");
         }
         if (computer==1 && player ==1){
             System.out.println("Tie");
@@ -51,7 +57,7 @@ public class rockpaperscissor {
             System.out.println("Computer wins");
         }
         else if (computer == 3 && player == 3 ){
-            System.out.println("User wins");
+            System.out.println("Ties");
         }
         else{
             System.out.println("Invalid choices");
