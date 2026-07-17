@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class votingeligibility {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-    //Voting eligibility
+    //Voting eligibility test
        int age;
        System.out.print("Enter age : ");
        age=sc.nextInt();
