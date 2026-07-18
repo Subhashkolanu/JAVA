@@ -18,5 +18,6 @@ public class compoundinterest {
         
         double compound = ammount-principal;
         System.out.printf("Compound interest : %.2f",compound);
+        sc.close();
     }
 }
