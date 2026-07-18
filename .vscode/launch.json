@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "compoundinterest",
+      "request": "launch",
+      "mainClass": "compoundinterest",
+      "projectName": "JAVA_f5f87096"
+    },
+    {
+      "type": "java",
       "name": "notebook",
       "request": "launch",
       "mainClass": "notebook",
