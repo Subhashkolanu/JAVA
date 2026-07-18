@@ -17,12 +17,34 @@ public class notebook {
         System.out.printf("Student : %b\n",isstudent);
         System.out.printf("currency : %c\n",currency);*/
         
-        double price1=859626.25;
+        /*double price1=859626.25;
         double price2=486668.59;
         double price3=-78316.32;
         System.out.printf("% .3f\n",price1);
         System.out.printf("% .3f\n",price2);
-        System.out.printf("% .3f\n",price3);
+        System.out.printf("% .3f\n",price3);*/
+
+        int id1=1;
+        int id2=23;
+        int id3=456;
+        int id4=7890;
+
+        System.out.printf("%04d\n",id1);
+        System.out.printf("%04d\n",id2);
+        System.out.printf("%04d\n",id3);
+        System.out.printf("%04d\n",id4);
+
+        System.out.printf("%4d\n",id1);
+        System.out.printf("%4d\n",id2);
+        System.out.printf("%4d\n",id3);
+        System.out.printf("%4d\n",id4);
+
+        System.out.printf("%-4d\n",id1);
+        System.out.printf("%-4d\n",id2);
+        System.out.printf("%-4d\n",id3);
+        System.out.printf("%-4d\n",id4);
+
+        
     }
     
 }
