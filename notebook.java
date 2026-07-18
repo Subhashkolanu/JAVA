@@ -1,4 +1,4 @@
-import java.util.Random;
+//import java.util.Random;
 public class notebook {
     public static void main(String[] args){
         //testing random
@@ -43,8 +43,6 @@ public class notebook {
         System.out.printf("%-4d\n",id2);
         System.out.printf("%-4d\n",id3);
         System.out.printf("%-4d\n",id4);
-
-        
     }
     
 }
