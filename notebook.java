@@ -6,7 +6,7 @@ public class notebook {
         int n = random.nextInt(10)+1;
         System.out.println(n);*/
         //testing printf statements
-        String name = "Subhash";
+        /*String name = "Subhash";
         int age = 18;
         double cgpa = 7.13;
         boolean isstudent=true;
@@ -15,8 +15,14 @@ public class notebook {
         System.out.printf("Age : %d\n",age);
         System.out.printf("cgpa : %.4f\n",cgpa);
         System.out.printf("Student : %b\n",isstudent);
-        System.out.printf("currency : %c\n",currency);
-
+        System.out.printf("currency : %c\n",currency);*/
+        
+        double price1=859626.25;
+        double price2=486668.59;
+        double price3=-78316.32;
+        System.out.printf("% .3f\n",price1);
+        System.out.printf("% .3f\n",price2);
+        System.out.printf("% .3f\n",price3);
     }
     
 }
