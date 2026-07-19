@@ -12,10 +12,8 @@ public class compoundinterest {
         rate = sc.nextDouble()/100;
         System.out.print("Enter time (years) : " );
         time = sc.nextInt();
-
         ammount=principal*Math.pow(1+rate,time);
         System.out.printf("Ammount : %.2f\n",ammount);
-        
         double compound = ammount-principal;
         System.out.printf("Compound interest : %.2f",compound);
         sc.close();
