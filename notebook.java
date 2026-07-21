@@ -24,7 +24,7 @@ public class notebook {
         System.out.printf("% .3f\n",price2);
         System.out.printf("% .3f\n",price3);*/
 
-        int id1=1;
+        /*int id1=1;
         int id2=23;
         int id3=456;
         int id4=7890;
@@ -42,7 +42,14 @@ public class notebook {
         System.out.printf("%-4d\n",id1);
         System.out.printf("%-4d\n",id2);
         System.out.printf("%-4d\n",id3);
-        System.out.printf("%-4d\n",id4);
+        System.out.printf("%-4d\n",id4);*/
+        String name = "Vikram singh rathod";
+        int length = name.length();
+        System.out.println("length of string : "+length); //counts with spaces
+        char letter = name.charAt(5);
+        System.out.println("At index 0 : "+letter); //returns characters at specified index
+        int index = name.indexOf("g");
+        System.out.println("Index of G : "+index);//returns index no without counting spaces
     }
     
 }
