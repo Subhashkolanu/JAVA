@@ -19,8 +19,9 @@ public class Scholarship {
                     System.out.println("Attendance too low");
                 }
             }
-            else
-                System.out.println("Income limit exceedeed");
+            else{
+                System.out.println("Income limit exceeded");
+            }
         }
         else{
             System.out.println("Not eligible");
