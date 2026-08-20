@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "age",
+      "request": "launch",
+      "mainClass": "age",
+      "projectName": "JAVA_e1afe9c4"
+    },
+    {
+      "type": "java",
       "name": "compoundinterest",
       "request": "launch",
       "mainClass": "compoundinterest",
