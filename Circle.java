@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CircleCal{
+public class Circle{
     public static void main(String[] args){
         //General methods
         double pi=3.1416;
