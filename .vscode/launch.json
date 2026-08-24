@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvenorOddv2",
+      "request": "launch",
+      "mainClass": "EvenorOddv2",
+      "projectName": "JAVA_e1afe9c4"
+    },
+    {
+      "type": "java",
       "name": "main",
       "request": "launch",
       "mainClass": "main",
