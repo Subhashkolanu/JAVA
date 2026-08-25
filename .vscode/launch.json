@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "switchday",
+      "request": "launch",
+      "mainClass": "switchday",
+      "projectName": "JAVA_e1afe9c4"
+    },
+    {
+      "type": "java",
       "name": "EvenorOddv2",
       "request": "launch",
       "mainClass": "EvenorOddv2",
