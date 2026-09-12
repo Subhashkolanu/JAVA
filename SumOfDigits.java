@@ -1,7 +1,7 @@
 import java.util.*;
 public class SumOfDigits {
     public static void main(String[] args){
-        int n,r,sum=0,a;
+        int n,r,a,sum=0;
         Scanner read = new Scanner(System.in);
         System.out.print("Enter a positive integer : ");
         n=read.nextInt();
