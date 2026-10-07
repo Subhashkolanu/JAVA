@@ -53,5 +53,6 @@ class StudentResult {
 
         System.out.println("Topper = Student " + (topper + 1));
         System.out.println("Highest Total = " + highestTotal);
+        sc.close();
     }
 }

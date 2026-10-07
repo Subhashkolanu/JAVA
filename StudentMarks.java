@@ -44,5 +44,6 @@ class StudentMarks {
         System.out.println("Highest = " + highest);
         System.out.println("Lowest = " + lowest);
         System.out.println("Average = " + average);
+        sc.close();
     }
 }

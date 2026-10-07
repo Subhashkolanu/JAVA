@@ -28,5 +28,6 @@ class Discount {
 
         System.out.println("Discount = " + discount);
         System.out.println("Final Amount = " + finalAmount);
+        sc.close();
     }
 }

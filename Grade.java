@@ -19,5 +19,6 @@ class Grade {
         else {
             System.out.println("Grade D");
         }
+        sc.close();
     }
 }

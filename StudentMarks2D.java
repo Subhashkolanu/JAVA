@@ -29,5 +29,6 @@ class StudentMarks2D {
             System.out.println("Total = " + total);
             System.out.println("Average = " + average);
         }
+        sc.close();
     }
 }

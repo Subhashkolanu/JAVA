@@ -13,5 +13,6 @@ class Attendance {
         else {
             System.out.println("Not Eligible");
         }
+        sc.close();
     }
 }

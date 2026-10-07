@@ -51,5 +51,6 @@ class Performance {
         System.out.println("Passed = " + passed);
         System.out.println("Highest = " + highest);
         System.out.println("Above Average = " + aboveAverage);
+        sc.close();
     }
 }

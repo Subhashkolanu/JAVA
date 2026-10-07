@@ -25,5 +25,6 @@ class Search {
         else {
             System.out.println("Not Found");
         }
+        sc.close();
     }
 }

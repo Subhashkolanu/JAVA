@@ -28,5 +28,6 @@ class Marks {
 
         System.out.println("Highest = " + highest);
         System.out.println("Lowest = " + lowest);
+        sc.close();
     }
 }
