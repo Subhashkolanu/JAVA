@@ -6,7 +6,7 @@ class Person{
     }
     public Person(int x , String y){
         System.out.println("Parent class constructor");
-         uid = x;
+        uid = x;
         pname = y;
     }
 }
