@@ -1,9 +1,11 @@
+//Implements is used to inherits the properties or methods of Interface
 interface Animal{
     void makeSound();
     void food();
 }
 class Dog implements Animal{
-    public void makeSound(){
+    //public should be mentioned along with returntype when overriding
+    public void makeSound(){ 
         System.out.println("Dog BARKS!");
     }
     public void food(){
