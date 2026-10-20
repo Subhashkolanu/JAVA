@@ -12,7 +12,7 @@ public class BankLoan{
             System.out.print("Enter cibil : ");
             cibil=sc.nextInt();
             if (cibil>=750){
-                System.out.println("Loan approved!");
+                System.out.println("Eligible for Loan!");
             }
             else{
                 System.out.println("Low cibil score");
