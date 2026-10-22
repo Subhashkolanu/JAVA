@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BankDemo",
+      "request": "launch",
+      "mainClass": "BankDemo",
+      "projectName": "JAVA_e1afe9c4"
+    },
+    {
+      "type": "java",
       "name": "userdefinedPackageDemo2",
       "request": "launch",
       "mainClass": "userdefinedPackageDemo2",

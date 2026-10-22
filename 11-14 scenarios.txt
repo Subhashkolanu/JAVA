@@ -1,0 +1,128 @@
+11-14 scenarios 
+
+11. Arithmetic Package
+File 1: calculator/Arithmetic.java
+Create a folder named calculator and place this file inside it.
+
+Java
+package calculator;
+
+public class Arithmetic {
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public double divide(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero.");
+        }
+        return (double) a / b;
+    }
+}
+File 2: CalculatorDemo.java
+Place this file outside the calculator folder.
+
+Java
+import calculator.Arithmetic;
+
+public class CalculatorDemo {
+    public static void main(String[] args) {
+        Arithmetic calc = new Arithmetic();
+        
+        System.out.println("Addition: " + calc.add(10, 5));
+        System.out.println("Subtraction: " + calc.subtract(10, 5));
+        System.out.println("Multiplication: " + calc.multiply(10, 5));
+        System.out.println("Division: " + calc.divide(10, 5));
+    }
+}
+12. Student Marks — ArrayIndexOutOfBoundsException
+Java
+import java.util.Scanner;
+
+public class StudentMarks {
+    public static void main(String[] args) {
+        int[] marks = {85, 92, 78, 88, 95}; // 5 students
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter student position (0-4): ");
+        
+        try {
+            int position = scanner.nextInt();
+            System.out.println("Marks for student at position " + position + ": " + marks[position]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Error: Invalid array position! Please enter a number between 0 and 4.");
+        } catch (Exception e) {
+            System.out.println("Error: Please enter a valid integer.");
+        } finally {
+            scanner.close();
+        }
+    }
+}
+13. Bank Withdrawal — throw
+Java
+class BankAccount {
+    private double balance;
+
+    public BankAccount(double initialBalance) {
+        this.balance = initialBalance;
+    }
+
+    public void withdraw(double amount) {
+        if (amount > balance) {
+            // Explicitly throwing an exception when balance is insufficient
+            throw new RuntimeException("Withdrawal failed: Insufficient balance. Available balance is $" + balance);
+        }
+        balance -= amount;
+        System.out.println("Successfully withdrew $" + amount + ". New balance: $" + balance);
+    }
+}
+
+public class BankDemo {
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount(1000.0);
+        
+        try {
+            account.withdraw(500.0);  // This will succeed
+            account.withdraw(800.0);  // This will throw the exception
+        } catch (RuntimeException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+14. Student Age Validation — throw
+Java
+import java.util.Scanner;
+
+public class StudentRegistration {
+    
+    public static void validateAge(int age) {
+        if (age < 17 || age > 30) {
+            // Throwing an exception if age is outside the valid range
+            throw new IllegalArgumentException("Registration failed: Age must be between 17 and 30.");
+        }
+        System.out.println("Registration successful! Student age is valid.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter student age for registration: ");
+        int age = scanner.nextInt();
+        
+        try {
+            validateAge(age);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        } finally {
+            scanner.close();
+        }
+    }
+}
