@@ -1,0 +1,39 @@
+Date : 16/11/2026 
+
+**Methods of Thread class**: 
+
+The below listed mehthods are commonly used 
+
+currentThread()
+start()
+setName(String)
+getName()
+sleep(int)--Interupted Exception
+setPriority(int)--1 to 10
+Thread.NORM_PRIORITY-5
+Thread.MIN_PRIORITY-1
+Thread.MAX_PRIORITY-10
+getPriority()
+join()
+isAlive() 
+setDaemon(boolean) -> To setup Daemon
+isDaemon() -> To check whether thread is running or alive. 
+
+**Types of Thread** : 
+
+1.Orphan Thread - can be created using join().
+2.Helper Thread - 
+3.Selfish Thread - 
+4.Starving Thread - 
+5.Green Thread - 
+6.Native Thread - For os level usage
+7.Daemon Thread - executes when no other threads are under execution. Also called as background threads
+
+Problem : Write a JAVA program to demonstarte Daemon Threads
+Program : DaemonThread.java 
+
+Problem: Write a JAVA program to demonstarte the use of isAlive() and join() methods
+Program : isAlive_join.java
+
+Problem : Write a java program to demonstarte Thread priorities 
+program : 
