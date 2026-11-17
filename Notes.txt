@@ -36,4 +36,10 @@ Problem: Write a JAVA program to demonstarte the use of isAlive() and join() met
 Program : isAlive_join.java
 
 Problem : Write a java program to demonstarte Thread priorities 
+program : ThreadPriority.java
+
+Thread Groups : 
+A ThreadGroup represents several therads as one group so one method can control all threads in one group.
+
+Problem : Write a java program to demonstarte the use of ThreadGroup class
 program : 
