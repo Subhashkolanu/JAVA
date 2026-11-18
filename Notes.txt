@@ -42,4 +42,10 @@ Thread Groups :
 A ThreadGroup represents several therads as one group so one method can control all threads in one group.
 
 Problem : Write a java program to demonstarte the use of ThreadGroup class
-program : 
+program : ThreadGroupDemo.java
+
+Date : 18/11/2026
+
+**Thread Synchronization**
+
+Problem : Write a java program to demonstarte Thread Synchronization.

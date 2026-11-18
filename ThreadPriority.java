@@ -1,7 +1,6 @@
 class ThreadPriority extends Thread {
     public void run(){
-        System.out.println("Running Thread name : "+Thread.currentThread().getname());
-        System.out.println("Running Thread priority : "+Thread.currentThread().getPriority());
+        System.out.println("Running Thread name : "+Thread.currentThread().getPriority());
     }
 
 public static void main(String[] args){
