@@ -49,3 +49,23 @@ Date : 18/11/2026
 **Thread Synchronization**
 
 Problem : Write a java program to demonstarte Thread Synchronization.
+program : Threadsync.java
+
+Methods in Thread Synchronization : 
+1. wait();
+2. notify();
+3. notifyAll();
+
+Problem : Write a java programt to demonstarte interThread communication and 
+
+
+***MODULE 5***
+
+I/O , STREAMS , FILES
+
+Problem : Write a java program to files creation
+program : IOdemo.java
+
+Problem : Write a java program to read the contents of a files and display on screen
+Program : IOread.java
+
